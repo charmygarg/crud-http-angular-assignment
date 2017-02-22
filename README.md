@@ -29,4 +29,4 @@ GET           /remove/:id
 
 POST         /add    ( body - {"date": "", "title": "", "description": "", "priority": ""} )
 
-POST         /update    ( body - {"date": "", "title": "", "description": "", "priority": "", "_id": ""} )
+POST         /update    ( body - {"_id": "", "date": "", "title": "", "description": "", "priority": ""} )
